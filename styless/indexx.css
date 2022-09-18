@@ -7,6 +7,7 @@
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(26 25 25);
   }
+  
   h1{
     color: azure;
     text-shadow: 5px 5px 10px rgb(26 25 25);
@@ -33,7 +34,7 @@
 ul li {
     color: rgb(0, 0, 0);
     margin: 5px;
-    display: flex;
+    font-size: 20px;
   }
 .line{border-bottom: 1px solid black;
     color: black;
@@ -49,11 +50,25 @@ ul li {
     text-align: center;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #1a1919;
-    height: 45px;
+    height: 56px;
     padding: 10px;
     color:rgb(236, 239, 106)
 
   }
   p{margin: 0;
-  color: azure;}
+  color: rgb(0, 0, 0);}
+  .a{
+    color: azure;
+    font-size: 25px;
+  }
+  .a > #demo{color: azure;
+  font-size: 25px;}
   a{margin: 0;}
+ .f > #d{
+  color: rgb(245, 252, 154);
+  font-size: 20px;
+ }
+ .f{
+  color:rgb(245, 252, 154);
+  font-size: 20px;
+ }

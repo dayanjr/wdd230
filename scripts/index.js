@@ -27,7 +27,13 @@ let todaysdate = new Date();
 let dayName = daynames[todaysdate.getDay()];
 let monthName = months[todaysdate.getMonth()];
 let oLastModif = new Date(document.lastModified);
-document.write("This document is lastly modified on" + " " +document.lastModified);
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+var date = new Date(document.lastModified);
+const str = new Intl.DateTimeFormat("en", {
+    timeStyle:"medium",
+    dateStyle:"short"}).format(date);
+document.getElementById("d").innerHTML = str
 try {
     let options = {
         weekday: "long",
@@ -39,3 +45,4 @@ try {
  } catch (e) {
     alert("Error with code or your browser does not support Locale")
  }
+ 
