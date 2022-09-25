@@ -1,0 +1,65 @@
+@media only screen and (min-width:1028px){
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    padding: 25px;
+  }
+  img{
+    max-width: 380px;
+  }
+  .grid-container > div {
+    background-color: rgb(241 222 222 / 80%);
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 25px 25px 0px 0px;
+  }
+body{margin: 0;}
+.bruh{     background: rgb(1, 13, 62);
+    margin-top: -20px;
+}
+
+.item1 > h1{
+    padding: 20px;
+    border-radius: 25px 25px 0px 0px;  
+    color: rgb(255, 255, 255);
+}
+.item1 > p{
+    padding: 20px;
+}
+.item1 > img{
+    padding: 20px;
+}
+.item1 > a{
+    padding: 20px;
+}
+.item2 > h1{
+    padding: 20px;
+    border-radius: 25px 25px 0px 0px;  
+    color: rgb(255, 255, 255);
+}
+.item2 > p{
+    padding: 20px;
+}
+.item2 > img{
+    padding: 20px;
+}
+.item2 > a{
+    padding: 20px;
+}
+header{
+    background-color: rgb(60, 84, 203);
+    text-align: center;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+footer{
+    background-color:rgb(60, 84, 203);
+    text-align: center;
+    padding: 3px;
+    color:  rgb(255, 255, 255);
+}
+.item2{
+    grid-area: auto;
+}
+}
