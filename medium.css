@@ -18,5 +18,13 @@
     img{
         max-width: 380px;
     }
-    
+    body{
+        font-family: 'Rock Salt', 'roboto',sans-serif;
+    }
+    .item2 > h1{
+        font-size: 20px;
+    }
+    .item1 > h1{
+        font-size: 20px;
+    }
     }
