@@ -1,56 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-  name="description"
-  content="this an assigment page for wdd 230 made by me(dayan frazao) on week 1"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
-  <title>first assigment</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styless/indexx.css">
-    
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Dayan Frazao">
+<title>Bountiful Foods</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+
+     
 </head>
 <body>
-    <header>
-        <div class="flex-container">
-            <div>
-                <img src="imagess/photo.jpg" alt="">
-            </div>
-            <div>
-                <h1>Dayan C. Frazao Jr</h1>
-            </div>
-          </div>  
+	<header>
+        <a href="index.html"><img src="css/newl.png" alt="logo" class="logo" id="logo"></a>
+    <div><h1>Bountiful Foods</h1>
+        <h2>"Fresh fruits and drinks available to everyone."</h2></div>
+        <nav class="date">  <span id="omed">  </span>, <span id="om">  </span> <span id="o">  </span>, <span id="year">  </span></nav>
     </header>
-    <main>
-        <h1 class="line">WDD: Assigment Portal</h1>
-         <ul>
-            <li>Lesson 1:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 2:<a href="https://dayanjr.github.io/wdd230/desing-principles.html">title</a></li>
-            <li>Lesson 3:<a href="">title</a></li>
-            <li>Lesson 4:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 5:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 6:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 7:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 8:<a href="week8/week8.html">title</a></li>
-            <li>Lesson 9:<a href="jston.html">title</a></li>
-            <li>Lesson 10:<a href="https://www.w3schools.com/">title</a></li>
-            <li>Lesson 11:<a href="https://www.w3schools.com/">title</a></li>
-         </ul>
-         <p class="line2">Some lessons may need more than one activity/assignment link.</p> 
-    </main>
-<footer>
-    <div class="flex-container2">
-        <p class="a">&copy;<span id="demo"></span> .:|:.Dayan F. Frazao .:|:. Utah</p>
-        <p class="f">last update: <span id="d"></span></p>
+    <nav>
+        <button id="ham">&#9776;</button>
+        <ul id="pn">
+            
+            
+            <li><a href="index.html"></a></li>
+            <li class="active"><a href="index.html">Home-Page</a></li>
+            <li><a href="join.html">Fresh-Page</a></li>
+            <li><a href="dicoverychannel.html">About Us</a></li>    
+            
+        </ul>
+    </nav>
 
-    <script src="scripts/index.js">
+    <main>
+        <!--<picture class="myphoto">-->
+            <!--<source media="(min-width: 900px)" srcset="900pxh-min.jpg">-->
+            <!--<source media="(min-width: 800px)" srcset="800pxh-min.jpg">-->
+            <!--<source media="(min-width: 500px)" srcset="500pxh-min.jpg">-->
+            <!--<img src="200pxh-min.jpg" alt="" class="im">-->
+        <!--</picture>-->
+        <h1 class="pt">Home-page</h1>
+        <h1 id="result"></h1>
+        <div class="grid-container">
+            <div class="item2">
+                  <h1 class="h" id="welcome">Welcome to Bountiful Foods</h1>
+            </div>
+                
+        <!---weather thing-->
+            <div class="item4">
+                <section>
+                    <h1 class="h">weather</h1>
+                <div class="thing">
+                   <img id="weather_icon" src="images/placeholder.png" alt="current weather">
+                    <p class="will"><span id="currentTemp"></span>&deg;F</p>
+                </div>
+                <figure>
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="currentspeed"></span>mph</p>
+                <p id="chill">message</p>
+                </section>
+            </div>
+        <!---weather thing-->
+            <div class="item6"><section><p class="h">Fresh-page</p>
+                <p>Make your own drink in our fresh-page</p>
+            <button class="cli" onclick="window.location.href='join.html';">get drink</button></section></div>
+            <div class="item9"><section><p class="h">Contact Us</p>
+                <p>Give us some feedback</p>
+            <button class="cli" onclick="window.location.href='dicoverychannel.html';">contact</button></section></div>
+            <div class="item7"><section><h1 class="h">El matador beach</h1><p>In this beach area, on the southern California coast, tourists have a good view of one of the most beautiful beaches in the US and they have access to plenty of services around that area, like our services on this website.</p></section></div>
+          </div>
+    </main>
+ 
+    <footer>
+        <div class="footer">
+            <div class="p"><a href="index.html"><img src="css/newl.png" alt="logo" class="logo"></a></div>
+        <div><p>Bountiful Foods</p>
+            <p>Address line 1</p>
+            <p>City, State Zip </p>
+        </div>
+        <div class="links">
+                <p><a href="index.html">info@BountifulFoods.org</a></p>
+            <p><a href="index.html">+1(999)999-9999</a></p>
+            <p><a href="https://www.google.com/maps/place/Goi%C3%A2nia,+GO,+Brasil/@-16.6954999,-49.4443564,11z/data=!3m1!4b1!4m5!3m4!1s0x935ef6bd58d80867:0xef692bad20d2678e!8m2!3d-16.6868912!4d-49.2647943">link to map</a></p>
+            <div class="social"> 
+                <a href="https://facebook.com" target="_blank">
+                <img src="css/facebook.png" alt="fb icon" class="s-l">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+            <img src="css/twitter.png" alt="twitter icon" class="s-l">
+             </a>
+             <a href="https://instagram.com" target="_blank">
+             <img src="css/instagram.png" alt="instagram icon" class="s-l"> 
+             </a>
+            </div>
+        </div>
+        </div>
+        <div class="flex-container2">
+            <p class="a">&copy;<span id="demo2"></span> .:|:.Dayan F. Frazao .:|:. WDD 230 project</p>
+            <p class="f">last update: <span id="d2"></span></p>
+    
+        <script src="scripts/index.js">
+            </script>
+        </div>
+        <script src="js/weather.js"></script>
+        <script src="js/date.js">
         </script>
-    </div>
-</footer>
-    </body>
+        <script src="js/id.js">
+        </script>
+        <script src="js/jsh.js">
+        </script>
+        <script src="js/dc.js">
+        </script>
+        <script src="js/storaged.js">
+        </script>
+
+        <!---<script src="js/ws.js"></script>--->
+       
+    </footer>
+  
+
+</body>
 </html>

@@ -1,0 +1,47 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    .box{
+        
+        margin: 65px;
+        height: 90px;
+        padding: 7px;
+    }
+    .gridizao{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+    }
+    
+    /*----------- HEADER --------------*/
+    
+    .logo{
+        max-width: 120px;
+    }
+    
+    /*----------- NAVIGATION --------------*/
+    nav button {display: none;}    
+    nav ul#pn{
+            display: flex;
+            margin-left: 2%;
+            border-left: 1px solid black;
+        }
+    
+    
+        nav ul li a{padding: .5rem 1rem;
+        border:none;
+    border-right: 1px solid black;}
+    
+    
+    /*----------- MAIN --------------*/
+    
+    picture > img:hover{
+        mix-blend-mode: difference;
+    }
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */
